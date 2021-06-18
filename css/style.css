@@ -1,0 +1,634 @@
+.header{
+    height: 650px;
+    width: 100%;    
+    padding: 180px 110px 180px;
+    background-image: url(../img/SITE/maior/primeiro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    opacity: inherit;
+    text-align: center;
+    vertical-align: middle;
+    background-attachment: fixed;
+    
+}
+.header img {
+    height: 100%;
+    width: 100%;
+        
+}
+.ppppp{
+    color: white;
+}
+.header9{
+    height: 1050px;
+    width: 100%;    
+    padding: 180px 110px 180px;
+    background-image: url(../img/SITE/maior/primeiro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1{
+    font-size: 80px;
+    font-weight: 800px;
+    text-align: center;
+    vertical-align: middle;
+}
+.hh{
+    text-align: center;
+    vertical-align: middle;
+}
+.header h1,
+.header p,
+.header button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media(max-width:768px){
+    .header {
+        padding: 30px;
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .header h1{
+        font-size: 20px;
+        text-align: center;
+    }
+    }
+
+.doacao{
+    padding-top: 130px;
+    padding-bottom: 130px;
+    text-align: center;
+    background-image: url(../img/SITE/maior/maior4.jpg);
+    background-size:cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+    
+.doacao h2,
+.doacao h4{
+    color: #fff;
+}
+.doacao p{
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 40px;
+}
+.doacao i {
+    height:80px;
+    font-size: 30px;
+    padding: 25px 20px;
+    border-radius: 50%;
+    background-color: #6699cc;
+    color:#fff;
+}
+
+@media(max-width:768px){
+    .doacao{
+        height: 768%;
+        min-height: 768px;
+    }
+}
+.inst{
+    padding: 40px 0 40px;
+    text-align: center;
+    background-image: url(../img/SITE/maior/terceiro.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+.inst h2,
+.inst p {
+    color: #fff;
+}
+.inst p{
+    padding-bottom: 1px;
+}
+.inst .packages{
+    padding: 30px;
+    margin-top:30px;
+    text-align: center;
+}
+.packages img{
+    height: 200px;
+    width: 350px;
+}
+.ib{
+    margin-top: 10px;
+}
+.packages h4,
+.packages h1,
+.packages b{
+    color: #fff;
+}
+.packages p{
+    color: #fff;
+    padding-top: 10px;
+}
+.packages button{
+    margin-top: 10px; 
+}
+@media(max-width:768px){
+    .inst{
+        padding:0px;
+    }
+    .packages{
+        width:100%;
+        margin-left: 0px;
+    }
+    .packages img{
+        align-content: center;
+}
+}
+.SD{
+    background-color: lightgreen;
+    color: white;
+}
+.SD:hover{
+    background-color: greenyellow;
+    color: white;
+}
+.SD1{
+    background-color: lightblue;
+    color: white;
+}
+.SD1:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+.somos{
+    padding:95px 0 95px;
+    text-align: center;
+    background-image: url(../img/SITE/maior/maior2.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+}
+.somos b,
+.somos h2,
+.somos h4{
+    color: #fff;
+    text-align: center;
+}
+.somos p{
+    color: #fff;
+    text-align: center;
+}
+
+.somos img{
+    height: 150px;
+    width: 155px;
+    margin-top: 80px;
+}
+.somos i{
+    height: 50px;
+    width: 50px;
+    padding: 5px;
+    font-size: 35px;
+    border-radius: 50%;
+    background-color: lightblue;
+    color:#fff;
+    padding-bottom: 10px;
+}
+.somos a:hover i{
+    background-color: #709963;
+}
+@media(max-width:768px){
+    .somos{
+        padding: 0px;
+    }
+}
+.clients{
+    padding: 50px 0 80px;
+    background-color: #3399ff;
+    text-align: center;
+    color:#fff;
+}    
+.clients h2{
+    color:#fff;       
+}
+.clients p{
+    padding-bottom:40px; 
+}
+.clients img{
+    width: 200px;
+    opacity: 0.6;
+    cursor:pointer;
+    margin: 40px 0;
+    transition: all 500ms ease-in-out;
+}    
+
+.clients li:hover img{
+    opacity: 1;    
+}
+
+.contato{
+    padding: 50px 0 80px;
+    text-align: center;
+    background-image: url(../img/SITE/maior/contato.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contato p{
+    padding-bottom: 80px;
+    color: #fff;
+}
+.contato h2{
+    color: #fff;
+    margin: 20px 0 20px;
+}
+.contato .input-group{
+    margin-bottom: 25px;
+    background-color: transparent;
+}
+.contato .form-control{
+    border-radius: 0 !important;
+    background-color: transparent;
+    color: #fff;  
+}
+.contato span{
+    border-radius: 0 !important;
+    background-color: transparent;
+}
+.contato .btn{
+    border-radius: 0;
+    width: 100%;
+    font-size: 15px;
+    background-color: red;
+    color: #fff;
+}
+.contato .btn:hover{
+    background-color: #a85959 !important;
+    color: #fff !important;
+    opacity: 1;
+}
+.footer{
+    background-color:cornflowerblue;
+}
+
+.btnS{
+    background-color: orange;
+}
+.btnS1{
+    background-color: mediumblue;
+}
+.btt:hover{
+    color: black;
+
+}
+.btt1{
+    background-color: white;
+    color: black;
+    width: 125px;
+    margin:0;
+}
+.btt1:hover{
+    background-color: #337ab7;
+    opacity: 100;
+}
+.mod{
+    background-size: cover;
+    background-color: transparent;
+    
+}
+.mod1{
+    background-color: transparent;
+}
+.hhhh{
+    color: white;
+}
+.btt{
+    color: white;
+    background-color: transparent;
+}
+brand{
+   background-color: fuchsia;
+    
+}
+
+#saiba{
+    background-color: orange;
+    color: white;
+}
+#saiba:hover{
+    background-color:cadetblue!important;;
+    color: white!important;
+    opacity: 1;
+}
+
+.licor{
+    font-size: 15px;
+    color: white!important;
+}
+.licor:hover{
+    background-color: black;
+    font-size: 17px;
+}
+
+.footer{
+    padding-bottom: 20px;
+    padding-top: 10px;
+    background-image:url(../img/SITE/maior/ceutardezinha.jpg);
+    background-size: cover;
+}
+.propague{
+    color: white;
+}
+.navbar-custom {
+  background-color: transparent;
+  border-color: transparent;
+}
+.navbar-custom .navbar-brand {
+  color: #fed136;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+  color: #fec503;
+}
+.navbar-custom .navbar-collapse {
+  
+}
+.navbar-custom .navbar-toggle {
+  background-color: transparent;
+  
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 12px;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #fed136;
+}
+.navbar-custom .nav li a {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+}
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
+  color: #fed136;
+  outline: none;
+}
+.navbar-custom .navbar-nav > .active > a {
+  border-radius: 0;
+  color: white;
+  background-color: #fed136;
+}
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #fec503;
+}
+@media (min-width: 768px) {
+  .navbar-custom {
+    background-color: transparent;
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+    border: none;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom .navbar-nav > .active > a {
+    border-radius: 3px;
+  }
+}
+@media (min-width: 768px) {
+  .navbar-custom.affix {
+    background-color:transparent;
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+
+.todasinst{
+    margin-top: 70px;
+}
+.inst1{
+padding: 40px 0 40px;
+    text-align: center;
+    background-image: url(../img/SITE/maior/ceutardezinha.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+#saiba{
+    margin-top: 10px;
+}
+.borda{
+    border: solid 1px;
+    border-bottom-width: medium;
+}
+.inst2{
+padding: 40px 0 40px;
+    text-align: center;
+    background-image: url(../img/SITE/maior/ceutardezinha.jpg);
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.inst3{
+padding: 40px 0 40px;
+    text-align: center;
+    background-image: url(../img/SITE/maior/ceutardezinha.jpg)  ;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+.persona1{
+    background-color: aqua;
+    background-size: cover;
+}
+.paginas{
+    background-image: url(/img/SITE/maior/maior4.jpg);
+    background-size: cover;
+}
+
+.central{
+    text-align: center;
+    object-position: center;
+    margin-left:50%;
+margin-bottom:50%;
+}
+
+.logo{
+    height: 200px;
+    width: 350px;
+}
+.inn{
+    padding-top: 200px;
+}
+
+.logi{
+    height: 650px;
+    width: 100%;    
+    padding: 180px 110px 180px;
+    background-image: url(../img/SITE/maior/ceumanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    opacity: inherit;
+    text-align: center;
+    vertical-align: middle;
+    background-attachment: fixed;
+    
+}
+.logi1{
+    height: 650px;
+    width: 100%;    
+    
+    background-image: url(../img/SITE/maior/ceumanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    opacity: inherit;
+    text-align: center;
+    vertical-align: middle;
+    background-attachment: fixed;
+    
+}
+.ch{
+    text-align: left;
+}
+
+.conteudoinst   {
+    height: 750px;
+    width: 100%;    
+    background-image: url(../img/SITE/maior/ceumanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    opacity: inherit;
+    text-align: center;
+    vertical-align: middle;
+    background-attachment: fixed;   
+}
+
+.ppp{
+    color: white;
+    padding-top: px;
+    margin: 10px;
+    height: 100px;
+}
+.hr{
+    font-size: 50px;
+}
+.localizacao{
+     height: 750px;
+    width: 100%;    
+    background-image: url(../img/SITE/maior/ceumanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    opacity: inherit;
+    text-align: center;
+    vertical-align: middle;
+    background-attachment: fixed;    
+}
+
+.bttt{
+    font-size: 35px;
+    width: 180px;
+}
+.bttt1{
+    font-size: 20px;
+    width: 180px;
+    margin-left: 115px;
+}
+
+.header1{
+    color: #fff;
+    text-align: center;
+    height: 650px;
+    width: 100%;    
+    background-image: url(../img/SITE/maior/ceumanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.imgg{
+    height: 400px;
+}
+.ig{
+    margin-top: px;
+    margin-left: 100px;
+    height: 150px;
+}
+.ig2{
+    margin-top: px;
+    margin-left: 90px;
+}
+.ig4{
+    margin-left: 100px;
+}
+.ig3{
+    height: 200px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+.caro{
+    color: #fff;
+    text-align: center;
+    height: 650px;
+    width: 100%;    
+    background-image: url(../img/SITE/maior/ceumanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+.edit{
+    width: 180px;
+    margin-left:10px; 
+}
+
+.header2{
+    height: 650px;
+    width: 100%;    
+    padding: 180px 110px 180px;
+    background-image: url(../img/SITE/maior/ceumanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    opacity: inherit;
+    text-align: center;
+    vertical-align: middle;
+    background-attachment: fixed;
+    font-size: 100px;
+}
+.hh1{
+    font-size: 80px;
+}
+.header4{
+  height: 650px;
+    width: 100%;    
+   
+    background-image: url(../img/SITE/maior/ceumanha.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    opacity: inherit;
+    text-align: center;
+    vertical-align: middle;
+    background-attachment: fixed;
+    font-size: 100px;   
+}

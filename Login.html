@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Index - Propague</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+    <body >
+        <!-- Barra de Navegação -->
+      
+      <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Propague</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#doacao">Projeto</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#inst">Instituições</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#somos">Sobre nós</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contato">Contato</a>
+                    </li>
+                    <li>
+                        <button type="button" class="btn btn-lg btt" data-toggle="modal" data-target="#myModal"><i class="fa fa-user-o" aria-hidden="true"></i></button>
+                        
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+         <div id="header" class="header">
+          <div class="container">
+            <div class="row">
+                <div class="col-xs-6 col-lg-6 col-md-6">
+                        <div class="form-group inn">
+                        <input type="text" id="nome" class="form-control" placeholder="Nome completo" required>
+                            <input class="date-mask form-control" id="datanascimento" placeholder="00/00/0000">
+                        </div>    
+                </div>
+                <div class="col-lg-6 col-md-6">
+                        <div class="form-group inn">
+                        <input type="text" id="nome" class="form-control" placeholder="Nome completo" required>
+                        <input class="date-mask form-control" id="datanascimento" placeholder="00/00/0000">
+                        </div>    
+                    </div>
+            </div>
+          </div>
+      </div>
+        
+        
+    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/wow.js"></script>
+    <script>
+    new WOW().init();
+    </script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+<script>
+var $doc = $('html, body');
+$('.page-scroll').click(function() {
+    $doc.animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+    }, 500);
+    return false;
+});
+</script>
+    </body>
+</html>
