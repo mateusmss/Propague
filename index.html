@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Index - Propague</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body >
-        <!-- Barra de Navegação -->
-      
-      <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Index - Propague</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="font-awesome-4.7.0/css/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <!-- Barra de Navegação -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top navbar-brand page-scroll">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+            <div class="navbar-header page-scroll page-top">
+                <button type="button" class="navbar-toggle " data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only " >Toggle navigation</span>Menu<i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#page-top">Propague</a>
+                <a href="#page-top" class="navbar-brand page-scroll">Propague</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -43,7 +42,6 @@
                     </li>
                     <li>
                         <button type="button" class="btn btn-lg btt" data-toggle="modal" data-target="#myModal"><i class="fa fa-user-o" aria-hidden="true"></i></button>
-                        
                     </li>
                 </ul>
             </div>
@@ -53,73 +51,75 @@
     </nav>
       <!-- Button trigger modal -->
 <!-- Modal -->
-        <div class="modal fade mod1" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-          <div class="modal-dialog mod1" role="document">
+    <div class="modal fade mod1" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog mod1" role="document">
             <div class="modal-content mod1">
-              <div class="modal-header mod">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title hhhh" id="myModalLabel "><center>Cadastre-se ou entre.</center></h4>
-              </div>
-              <div class="modal-body mod">
-                  <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <center><a href="formcadastro.php"><button type="button" class="btn btn-lg btt1">Cadastro</button></a></center>
+                <div class="modal-header mod">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Cadastre-se ou entre.</h4><!-- tirei center-->
+                </div>
+                <div class="modal-body mod">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <a href="formcadastro.php" class="btn btn-success">Cadastro</a> <!-- aumentar tamanho -->
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <a href="Login.php" class="btn btn-success">Login</a> <!-- aumentar tamanho -->
+                        </div>
                     </div>
-                    <div class="col-lg-6 col-md-6">
-                        <center><a href="Login.php"><button type="button" class="btn btn-lg btt1">Login</button></a></center>
-                    </div>
-                  </div>
-              </div>
-              <div class="modal-footer mod">
-                  <center><button type="button" class="btn btn-lg btt1" data-dismiss="modal">Voltar</button></center>
-              </div>
-            </div>
-          </div>
-        </div>
-          
-        <!-- Fim da barra de navegação-->
-        <!-- entrada -->
-      <div id="header" class="header">
-          <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-lg-12 col-md-12 wow fadeInLeft" data-wow-delay="1s">
-                   <h1 class="hh">Sejam bem-vindos ao Propague.</h1>
                 </div>
-            </div>
-          </div>
-      </div>
-        <!-- fim da entrada -->
-       <!-- Parte de doação -->
-      <div id="doacao" class="doacao">
-        <div class="container">
-           <h2>Nosso Projeto</h2> 
-            <p>Conheça a Propague.</p>
-            <div class="row">
-                <div class="col-lg-12 col-md-12">
-                <div class="col-lg-4 col-md-4 wow fadeInLeft">
-                    <img src="img/SITE/maior/icone_missao.png">
-                <h4>Nossa missão</h4>
-                <p>Propagar instituições com baixa visibilidade, transmitir confiabilidade e facilitar o processo de doação com segurança.
-</p>
+                <div class="modal-footer mod">
+                    <button type="button" class="btn btn-lg btt1" data-dismiss="modal">Voltar</button><!-- tirei center-->
                 </div>
-                <div class="col-lg-4 col-md-4 wow fadeInLeft">
-                    <img src="img/SITE/maior/icone_objetivo.png">
-                <h4>Nosso objetivo</h4>
-                <p>Despertar a cultura do “pedir” nas intuições com baixa visibilidade.
-</p>
-                </div>
-                <div class="col-lg-4 col-md-4 wow fadeInLeft">
-                    <img src="img/SITE/maior/icone_valores.png">
-                <h4>Nossos valores</h4>
-                <p>Estamos comprometidos com o crescimento das instituições, trabalhamos com paixão, entusiasmo e com a ambição de sermos melhores a cada dia, garantindo a confiança, transparência e respeito.   </p>
-                </div>    
-                </div>    
             </div>
         </div>
     </div>
-        <!-- fim da Parte de doação -->
-        <!-- Instituições -->
-      <div class="inst" id="inst">
+    <!-- Fim da barra de navegação-->
+
+    <!-- entrada -->
+    <div id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-lg-12 col-md-12 wow fadeInLeft" data-wow-delay="1s">
+                    <h1 class="hh">Sejam bem-vindos ao Propague.</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fim da entrada -->
+    
+    <!-- Parte de doação -->
+    <div id="doacao" class="doacao">
+        <div class="container">
+            <h2>Nosso Projeto</h2> 
+            <p>Conheça a Propague.</p>
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="col-lg-4 col-md-4 wow fadeInLeft">
+                        <img src="img/SITE/maior/icone_missao.png" alt ="Icone de duas mãos se cumprimentando">
+                        <h4>Nossa missão</h4>
+                        <p>Propagar instituições com baixa visibilidade, transmitir confiabilidade e facilitar o processo de doação com segurança.</p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 wow fadeInLeft">
+                        <img src="img/SITE/maior/icone_objetivo.png" alt ="Icone de um alvo" >
+                        <h4>Nosso objetivo</h4>
+                        <p>Despertar a cultura do “pedir” nas intuições com baixa visibilidade.</p>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-4 wow fadeInLeft">
+                        <img src="img/SITE/maior/icone_valores.png" alt ="Icone de um alvo" >
+                        <h4>Nossos valores</h4>
+                        <p>Estamos comprometidos com o crescimento das instituições, trabalhamos com paixão, entusiasmo e com a ambição de sermos melhores a cada dia, garantindo a confiança, transparência e respeito.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- fim da Parte de doação -->
+
+    <!-- Instituições -->
+    <div class="inst" id="inst">
         <div class="container">
             <div class="row">
                 <h2>Instituições</h2>
@@ -127,45 +127,43 @@
                 <div class="col-lg-4 col-md-4 wow fadeInLeft">
                     <div class="packages">
                         <h4>Nossa Senhora do Bom Parto</h4>
-                        <img src="img/Instituicoes/Bompar/logo.png" class="logo img-responsive img-rounded" />
+                        <img src="img/Instituicoes/Bompar/logo.png" class="logo img-responsive img-rounded" alt="Imagem da instituição de caridade Bompar" />
                         <p>O Centro Social Nossa Senhora do Bom Parto, atende aproximadamente 3200 crianças diariamente, promovendo um desenvolvimento sóciopedagógico baseado na "Amorosidade"; no respeito e na promoção integral da infância.</p>
-                        <b><center>Crianças Carentes</center></b>
-                        
-                        <a  href="" class=" btn btn-success">Doe agora</a>
-                        <a href="template.html" class="btn btn-primary">Saiba mais</a>
+                        <p class="text-center font-weight-bold">Crianças Carentes</p><!-- tirei center-->
+                        <a href="" class="btn btn-success">Doe agora</a>
+                        <a href="NossaSenhora.php" class="btn btn-primary">Saiba mais</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 wow fadeInLeft">
+                    <div class="packages" >
+                        <h4>Doce Lar</h4>
+                        <img src="img/Instituicoes/DoceLar/titulo.jpg" class="logo img-responsive img-rounded" alt="Imagem da instituição de caridade Doce Lar" />
+                        <p>A Associação de Apoio à Criança com Câncer, é uma organização não governamental considerada modelo nacional no tratamento e assistência de crianças com câncer.</p>
+                        <br/>
+                        <p class="text-center font-weight-bold">Crianças carentes com câncer</p><!-- tirei center-->
+                        <a href="" class="btn btn-success">Doe agora</a>
+                        <a href="DoceLar.php" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 wow fadeInLeft">
                     <div class="packages">
-                        <h4>Doce Lar</h4>
-                        <img src="img/Instituicoes/DoceLar/titulo.jpg" class="logo img-responsive img-rounded" />
-                        <p>A Associação de Apoio à Criança com Câncer, é uma organização não governamental considerada modelo nacional no tratamento e assistência de crianças com câncer.</p>
-                        <br/>
-                        <b><center>Crianças Carentes</center></b>
-                        <a  href="" class="btn btn-success">Doe agora</a>
-                        <a href="DoceLar.php" class="btn btn-primary">Saiba mais</a>
-                    </div>
-                </div>
-                 <div class="col-lg-4 col-md-4 wow fadeInLeft">
-                    <div class="packages">
                         <h4>Instituto Luz do Amanhã</h4>
-                        <img src="img/Instituicoes/LuzdoAmanha/logo.jpg" class=" logo img-responsive img-rounded" />
-                        <p>O Instituto Luz do Amanhã atua como um alicerce para crianças e adolescentes com câncer e suas famílias, ajudamos na busca de todas as possibilidades de cura nesse momento tão difícil. </p>
-                        <b><center>Crianças e Adolescente com câncer</center></b>
-                        
-                        <a  href="" class=" btn btn-success">Doe agora</a>
+                        <img src="img/Instituicoes/LuzdoAmanha/logo.jpg" class="logo img-responsive img-rounded" alt="Imagem da instituição de caridade Luz do Amanha" />
+                        <p>O Instituto Luz do Amanhã atua como um alicerce para crianças e adolescentes com câncer e suas famílias, ajudamos na busca de todas as possibilidades de cura nesse momento tão difícil.</p>
+                        <p class="text-center font-weight-bold">Crianças e Adolescente com câncer</p><!-- tirei center-->
+                        <a  href="" class="btn btn-success" id="botaoInstituicao">Doe agora</a>
                         <a href="DoceLar.php" class="btn btn-primary">Saiba mais</a>
                     </div>
                 </div>
-                 
-                <a href="todasinst.html"><button id="saiba" class="btn btn-lg wow fadeInLeft">Veja todas as instituições</button></a>
-            </div>  
+                <a href="todasinst.html" class="btn btn-lg wow fadeInLeft" id="saiba">Veja todas as instituições</a>
+               
+            </div>
         </div>
-      </div>
-        <!-- fim das instituições-->
-        <!-- Equipe -->
-      
-      <div class="somos" id="somos">
+    </div>
+    <!-- fim das instituições-->
+
+    <!-- Equipe -->
+    <div class="somos" id="somos">
         <div class="container">
             <div class="row">
                 <h2>Conheça a equipe criativa</h2>
@@ -179,13 +177,13 @@
                     <a href="#"><i class="fa fa-twitter wow fadeInLeft" aria-hidden="true"></i></a>
                     <a href="#"><i class="fa fa-instagram wow fadeInLeft" aria-hidden="true"></i></a>
                 </div>
-            </div>  
-        </div>    
-      </div>
-        <!-- fim equipe-->
+            </div>
+        </div>
+    </div>
+    <!-- fim equipe-->
 
-      <!-- Contato -->
-      <div id="contato" class="contato">
+    <!-- Contato -->
+    <div id="contato" class="contato">
         <div class="container">
             <div class="row">
                 <h2>Contato conosco</h2>
@@ -193,63 +191,59 @@
                 <div class="col-lg-6 col-md-6 ">
                     <div class="input-group input-group-lg wow fadeInLeft">
                         <span class="input-group-addon" id="sizing-addon1" ><i class="fa fa-user" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="Nome completo">
+                        <input type="text" class="form-control" placeholder="Nome completo">
                     </div>
                     <div class="input-group input-group-lg wow fadeInLeft">
-                        <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="Endereço de e-mail">
+                        <span class="input-group-addon" id="sizing-addon2"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" placeholder="Endereço de e-mail">
                     </div>
                     <div class="input-group input-group-lg wow fadeInLeft">
-                        <span class="input-group-addon" id="sizing-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
-                        <input type="text" class="form-control" aria-describedby="sizaing-addon1" placeholder="Numero de telefone">
+                        <span class="input-group-addon" id="sizing-addon3"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                        <input type="text" class="form-control" placeholder="Numero de telefone">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6 wow fadeInUp">
                     <div class="input-group">
-                        <textarea class="form-control" name="" id="" cols="80" rows="6"></textarea>
+                        <textarea class="form-control" cols="80" rows="6" placeholder="Escreve sua mensagem!"></textarea>
                     </div>
                     <button class="btn btn-lg">Envie a sua mensagem</button>
                 </div>
-            </div>  
-        </div>
-      </div>
-      <!-- Fim de contato Contato -->
-      
-      <!--footer-->
-      <footer>
-          <div class="footer" id="footer">
-          <div class="container">
-              <div class="row">
-                  <div class="col-lg-10 col-md-10">
-                      <br>
-                    
-                  </div>
-                  <div class="col-sm-2 text-right">
-                      <br>
-                      <strong>Propague</strong>
-                    
-                  </div>
             </div>
         </div>
-        </div>      
-    </footer>  
-      
-      <!--Fim do footer-->
+    </div>
+    <!-- Fim de contato Contato -->
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><script src="js/bootstrap.min.js"></script><script src="js/wow.js"></script>
-                <script>
-                new WOW().init();
-                </script>
-                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <!--footer-->
+    <footer>
+        <div class="footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-md-10">
+                        <br>
+                    </div>
+                    <div class="col-sm-2 text-right">
+                        <br>
+                        <strong>Propague</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Fim do footer-->
 
-            <script>
-            var $doc = $('html, body');
-            $('.page-scroll').click(function() {
-                $doc.animate({
-                    scrollTop: $( $.attr(this, 'href') ).offset().top
-                }, 500);
-                return false;
-            });
-            </script>
-  </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script>new WOW().init();</script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>
+        var $doc = $('html, body');
+        $('.page-scroll').click(function() {
+            $doc.animate({
+                scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 500);
+            return false;
+        });
+    </script>
+</body>
 </html>
